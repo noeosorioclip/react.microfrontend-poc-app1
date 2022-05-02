@@ -11,8 +11,9 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import { Link } from "@tanstack/react-location";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = ["products", "pricing", "blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const ResponsiveAppBar = () => {
@@ -77,9 +78,9 @@ const ResponsiveAppBar = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <Link key={page} to={`/${page}`}>
                   <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
+                </Link>
               ))}
             </Menu>
           </Box>
@@ -98,7 +99,9 @@ const ResponsiveAppBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page}
+                 <Link key={page} to={`/${page}`}>
+                  <Typography textAlign="center">{page}</Typography>
+                </Link>
               </Button>
             ))}
           </Box>
