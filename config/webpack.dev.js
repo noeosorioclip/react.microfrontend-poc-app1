@@ -39,6 +39,7 @@ const devConfig = {
       filename: 'remoteEntry.js',
       exposes: {
         './App': './src/App',
+        './Navbar': './src/components/NavBar',
       },
       shared: packageJson.dependencies
     }),

@@ -1,17 +1,9 @@
 import React from "react";
+import { ReactLocationDevtools } from '@tanstack/react-location-devtools'
+import { Products } from "./pages/Products";
 
 const App = () => {
-  return (
-    <div style={{
-      margin: "10px",
-      padding: "10px",
-      textAlign: "center",
-      backgroundColor: "#FFEE58",
-      color: "grey"
-    }}>
-      <h1>Remote App Pikachu</h1>
-    </div>
-  )
+  return <Products />
 }
 
 export default App;
