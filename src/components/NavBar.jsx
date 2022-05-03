@@ -99,8 +99,16 @@ const ResponsiveAppBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                 <Link key={page} to={`/${page}`}>
-                  <Typography textAlign="center">{page}</Typography>
+                <Link
+                  underline="none"
+                  key={page}
+                  to={`/${page}`}
+                  style={{
+                    color:"white",
+                    textDecoration:"none"
+                  }}
+                >
+                  {page}
                 </Link>
               </Button>
             ))}

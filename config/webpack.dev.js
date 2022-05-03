@@ -9,17 +9,15 @@ const devConfig = {
   entry: './src/index',
   mode: 'development',
   output: {
-    // publicPath: 'http://localhost:8081/',
-    publicPath: 'auto',
+    publicPath: 'http://localhost:8081/',
+    // publicPath: 'auto',
   },
   devServer: {
     port: 8081,
     static: {
       directory: path.join(__dirname, 'dist'),
     },
-    historyApiFallback: {
-      index: 'index.html',
-    },
+    historyApiFallback: true
   },
   module: {
     rules: [
