@@ -38,6 +38,9 @@ const devConfig = {
       exposes: {
         './App': './src/App',
         './Navbar': './src/components/NavBar',
+        './pokemons': './src/data/pokemons',
+        './Evolutions': './src/pages/Evolutions',
+
       },
       shared: packageJson.dependencies
     }),

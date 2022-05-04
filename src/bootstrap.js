@@ -11,11 +11,9 @@ import reactDom from 'react-dom';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 
-console.log("Init app1")
+
 // Mount function to start up the app
 export const mount = (root) => {
-    console.log("Mounting App1")
-    console.log(root)
     
     // createRoot(container!) if you use TypeScript
 
