@@ -33,13 +33,14 @@ const devConfig = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'pikachu',
+      name: 'pokemon',
       filename: 'remoteEntry.js',
       exposes: {
         './App': './src/App',
         './Navbar': './src/components/NavBar',
         './pokemons': './src/data/pokemons',
         './Evolutions': './src/pages/Evolutions',
+        './PokemonCard': './src/components/Pokemon',
 
       },
       shared: packageJson.dependencies

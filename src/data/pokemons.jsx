@@ -1,4 +1,4 @@
-import pokemonData from "../data/pokemons.json";
+import pokemonData from "./pokemons.json";
 
 export default function pokemons() {
   return pokemonData;

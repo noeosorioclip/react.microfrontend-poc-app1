@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/styles";
-import { color } from "@mui/system";
 
 export function Pokemon({ pokemon = {}, ...props }) {
   const {

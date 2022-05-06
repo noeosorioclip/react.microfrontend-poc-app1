@@ -29,5 +29,64 @@
     "number": 447,
     "color": "#6EA5BA",
     "evolutions": ["riolu","lucario"]
+  },
+
+  "treecko":{
+    "name": "Treecko",
+    "number": 252,
+    "color": "#bfd889",
+    "evolutions": ["treecko","grovyle", "sceptile"]
+  },
+  "grovyle":{
+    "name": "Grovyle",
+    "number": 253,
+    "color": "#749d75",
+    "evolutions": ["treecko","grovyle", "sceptile"]
+  },
+  "sceptile":{
+    "name": "Sceptile",
+    "number": 254,
+    "color": "#88ba8d",
+    "evolutions": ["treecko","grovyle", "sceptile"]
+  },
+
+  "torchic":{
+    "name": "Torchic",
+    "number": 255,
+    "color": "#f0a348",
+    "evolutions": ["torchic","combusken", "blaziken"]
+  },
+  "combusken":{
+    "name": "Combusken",
+    "number": 256,
+    "color": "#e59565",
+    "evolutions": ["torchic","combusken", "blaziken"]
+  },
+  "blaziken":{
+    "name": "Blaziken",
+    "number": 257,
+    "color": "#b45242",
+    "evolutions": ["torchic","combusken", "blaziken"]
+  },
+
+
+  "mudkip":{
+    "name": "Mudkip",
+    "number": 258,
+    "color": "#5eb3db",
+    "evolutions": ["mudkip","marshtomp", "swampert"]
+  },
+  "marshtomp":{
+    "name": "Marshtomp",
+    "number": 259,
+    "color": "#82c7ca",
+    "evolutions": ["mudkip","marshtomp", "swampert"]
+  },
+  "swampert":{
+    "name": "Swampert",
+    "number": 260,
+    "color": "#7faacc",
+    "evolutions": ["mudkip","marshtomp", "swampert"]
   }
+
 }
